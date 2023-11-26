@@ -22,7 +22,7 @@ def clean_resume(resume_text):
 # web app
 def main():
     st.title("Resume Screening App")
-    uploaded_file = st.file_uploader('Upload Resume', type=['txt','pdf'])
+    uploaded_file = st.file_uploader('Upload Resume', type=['pdf'])
 
     if uploaded_file is not None:
         try:
