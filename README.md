@@ -17,14 +17,36 @@ In this project, we examine the urgent need to automate the screening of resumes
 
 ## Instructions to run project on your system
 
-```console
-foo@bar:~$ git clone https://github.com/priyanka-111-droid/Resume_Screener_NLP.git
-foo@bar:~$ cd Resume_Screener_NLP
-foo@bar:~$ pip install -r requirements.txt
-foo@bar:~$ streamlit run app.py
+1. **Clone the Repository:**
+   Open a terminal or command prompt and use the following command to clone the Streamlit project. 
 
-```
+   ```bash
+   git clone https://github.com/priyanka-111-droid/Resume_Screener_NLP.git
+   ```
 
+2. **Navigate to the Project Directory:**
+   Change your working directory to the newly cloned project.
+
+   ```bash
+   cd Resume_Screener_NLP
+   ```
+
+3. **Install Dependencies:**
+   Use `pip` to install the project dependencies listed in the `requirements.txt` file.
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Streamlit App:**
+   Streamlit apps are typically run using the `streamlit run` command followed by the name of the Python script that contains your Streamlit app. 
+
+   ```bash
+   streamlit run app.py
+   ```
+
+5. **Open the Streamlit App in Your Browser:**
+   After running the command, Streamlit will provide a local URL (usually `http://localhost:8501`). Open this URL in your web browser to interact with your Streamlit app.
 
 
 
